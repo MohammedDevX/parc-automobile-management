@@ -1,0 +1,459 @@
+#card {
+    border-radius: 4px;
+    width: 30em;
+}
+
+#title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form1,
+.form2 {
+    margin-left: 40px;
+}
+
+#email,
+#pass {
+    font-weight: 600;
+}
+
+#inp1,
+#inp2 {
+    margin-top: 10px;
+    width: 90%;
+    font-size: 14px;
+    padding: 14px;
+    border: #ced4da, 1px, solid;
+    box-sizing: border-box;
+}
+
+#pass {
+    margin-top: 30px;
+}
+
+#btn {
+    width: 83%;
+    padding: 10px;
+    margin-top: 40px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+}
+
+#alrt {
+    margin-top: 15px;
+    width: 23em;
+    margin-left: 2.5em;
+    background-color: #ffc0c7;
+    height: 3.3em;
+    display: flex;
+    align-items: center;
+    margin-bottom: -0.3em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebare {
+    width: 260px;
+    position: fixed;
+    top: 86px;
+    bottom: 0;
+    background-color: #343a3f;
+    overflow-y: auto;
+    color: #cbd1d7;
+}
+
+.sidebare-item {
+    padding: 0.75em 1em;
+    display: block;
+    transition: background-color 0.15s;
+    border-radius: 5px;
+}
+
+.sidebare-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebare-title {
+    display: flex;
+    font-size: 1.1em;
+    justify-content: space-between;
+}
+
+.sidebare-title span i {
+    display: inline-block;
+    width: 1.5em;
+}
+
+.sidebare-title .toggle-btn {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.sidebare-item.open > .sidebare-title .toggle-btn {
+    transform: rotate(180deg);
+}
+
+.sidebare-content {
+    padding-top: 0.25em;
+    height: 0;
+    overflow: hidden;
+}
+
+.sidebare-content-clicked {
+    background-color: blue;
+    padding-top: 0.25em;
+    height: 0;
+    overflow: hidden;
+}
+
+.sidebare-item.open > .sidebare-content {
+    height: auto;
+}
+
+.sidebare-item.plain {
+    color: #cbd1d7;
+    text-decoration: none;
+}
+
+.sidebare-item.plain:hover {
+    cursor: pointer;
+}
+
+.sidebare-item.plain i {
+    width: 1.7em;
+    display: inline-block;
+}
+
+.content {
+    height: 119%;
+    width: 62.749em;
+    background-color: #f4f6f9;
+    margin-left: 198px;
+    margin-top: 0.4em;
+}
+
+.react-alerts-container {
+    gap: 10px;
+}
+
+.content .tables {
+    background-color: white;
+    margin-left: 11px;
+    margin-right: 11px;
+    width: auto;
+    border-radius: 8px;
+    height: auto;
+    padding-top: 20px;
+}
+
+.content .tabless {
+    background-color: white;
+    width: auto;
+    padding-left: 0;
+    padding-right: 2.2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-radius: 8px;
+    height: auto;
+    padding-top: 20px;
+}
+
+.content .doss {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dashboard-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    margin: 0.5rem;
+    flex-basis: calc(25% - 1rem);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-top: -1em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content .tables .pagination-content {
+    background-color: white;
+}
+
+.content h1 {
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.content .tables input {
+    width: 200px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.content .tables label {
+    margin-right: 10px;
+    float: left;
+}
+
+/* .content .tables .table button {
+    color: #17a2b9;
+} */
+
+.content .tables .search {
+    float: right;
+}
+
+.content .tables .pagination {
+    float: right;
+}
+
+.content .inserts {
+    background-color: white;
+    padding-left: 30px;
+    margin-left: 27px;
+    padding-right: 30px;
+    width: 96%;
+    border-radius: 8px;
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.content .inserts form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.form-group input {
+    width: 285px;
+}
+
+.form-group select {
+    width: 285px;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+.content-inside {
+    margin-top: 80px;
+}
+
+.content .inserts-v {
+    background-color: white;
+    padding-left: 30px;
+    margin-left: 18px;
+    margin-left: 18px;
+    padding-right: 30px;
+    width: 96%;
+    border-radius: 8px;
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.content .inserts-v form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .inserts-c {
+    background-color: white;
+    padding-left: 30px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding-right: 30px;
+    width: auto;
+    border-radius: 8px;
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 28px;
+}
+
+.content .inserts-c form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form .lab {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.content .inserts-a {
+    background-color: white;
+    padding-left: 30px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding-right: 30px;
+    width: auto;
+    border-radius: 8px;
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.content .inserts-a form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .inserts-t {
+    background-color: white;
+    padding-left: 30px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding-right: 30px;
+    width: 96%;
+    border-radius: 8px;
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 28px;
+}
+
+.content .inserts-t form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.suggestions {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    width: calc(100% - 2px);
+}
+
+.suggestions li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.suggestions li:last-child {
+    border-bottom: none;
+}
+
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.not-found h1 {
+    position: relative;
+}
+
+.not-found button {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.nav-item.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu a:active {
+    background-color: #fff !important;
+    color: black;
+}

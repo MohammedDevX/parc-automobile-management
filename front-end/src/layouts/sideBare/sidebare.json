@@ -1,0 +1,119 @@
+[
+    {
+        "title": "Dashboard",
+        "path": "/dashboards",
+        "icon": "fa-solid fa-gauge-high"
+    },
+    {
+        "title": "Admin's",
+        "icon": "fa-solid fa-user-gear",
+        "childrens": [
+            {
+                "title": "liste des admins",
+                "path": "/users"
+            },
+            {
+                "title": "Ajouter un admin",
+                "path": "/users/new"
+            }
+        ]
+    },
+    {
+        "title": "Employe's",
+        "icon": "fa-solid fa-user",
+        "childrens": [
+            {
+                "title": "liste des employes",
+                "path": "/employes"
+            },
+            {
+                "title": "Ajouter un employe",
+                "path": "/employes/new"
+            }
+        ]
+    },
+    {
+        "title": "Vehicule's",
+        "icon": "fa-solid fa-truck",
+        "childrens": [
+            {
+                "title": "liste des vehicules",
+                "path": "/vehicules"
+            },
+            {
+                "title": "Ajouter un vehicule",
+                "path": "/vehicules/new"
+            }
+        ]
+    },
+    {
+        "title": "Trajet employe's",
+        "icon": "fa-solid fa-route",
+        "childrens": [
+            {
+                "title": "liste des trajets",
+                "path": "/trajets"
+            },
+            {
+                "title": "Ajouter un trajet",
+                "path": "/trajets/new"
+            }
+        ]
+    },
+    {
+        "title": "Prix carburant",
+        "icon": "fa-solid fa-dollar-sign",
+        "childrens": [
+            {
+                "title": "liste prix carburant",
+                "path": "/carburant"
+            },
+            {
+                "title": "Ajouter prix carburant",
+                "path": "/carburant/new"
+            }
+        ]
+    },
+    {
+        "title": "Vehicule categorie's",
+        "icon": "fa-solid fa-bars",
+        "childrens": [
+            {
+                "title": "liste des categories",
+                "path": "/categories"
+            },
+            {
+                "title": "Ajouter une categorie",
+                "path": "/categories/new"
+            }
+        ]
+    },
+    {
+        "title": "Accident's rapport",
+        "icon": "fa-solid fa-car-burst",
+        "childrens": [
+            {
+                "title": "liste des accidents",
+                "path": "/accidents"
+            },
+            {
+                "title": "Ajouter une accident",
+                "path": "/accidents/new"
+            }
+        ]
+    },
+    {
+        "title": "Reparation vehicule's",
+        "icon": "fa-solid fa-wrench",
+        "childrens": [
+            {
+                "title": "liste de reparation",
+                "path": "/reparations"
+            },
+            {
+                "title": "Ajouter une reparation",
+                "path": "/reparations/new"
+            }
+        ]
+    }
+]
