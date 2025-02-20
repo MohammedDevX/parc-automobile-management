@@ -1,43 +1,65 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://github.com/username/gestion-parc-automobile" target="_blank"><img src="//front-end/src/assets/Icon.png" width="400" alt="Logo Gestion Parc Automobile"></a></p> <p align="center"> <a href="https://github.com/username/gestion-parc-automobile/actions"><img src="https://github.com/username/gestion-parc-automobile/workflows/tests/badge.svg" alt="Statut de la construction"></a> <a href="https://packagist.org/packages/username/gestion-parc-automobile"><img src="https://img.shields.io/packagist/dt/username/gestion-parc-automobile" alt="Téléchargements totaux"></a> <a href="https://packagist.org/packages/username/gestion-parc-automobile"><img src="https://img.shields.io/packagist/v/username/gestion-parc-automobile" alt="Dernière version stable"></a> <a href="https://packagist.org/packages/username/gestion-parc-automobile"><img src="https://img.shields.io/packagist/l/username/gestion-parc-automobile" alt="Licence"></a> </p>
-🚗 Gestion Parc Automobile </br>
-Description : </br>
-Ce projet est une application web de gestion du parc automobile pour la municipalité de Taourirt. Développée avec React pour le frontend et Laravel pour le backend, cette application permet aux utilisateurs de gérer et suivre les véhicules municipaux, leurs entretiens, et leurs opérations quotidiennes de manière efficace et fluide.
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parc Automobile Management</title>
+</head>
+<body>
 
-⚙️ Fonctionnalités principales : </br>
-🚙 Gestion des véhicules : Ajouter, modifier et supprimer des véhicules avec des informations détaillées (marque, modèle, immatriculation, etc.). </br>
-🔧 Suivi des entretiens : Planification et gestion des entretiens périodiques, avec des notifications pour les réparations à venir. </br> 
-⛽ Suivi des opérations : Suivi du kilométrage, de la consommation de carburant et d'autres opérations liées aux véhicules. </br>
-📊 Tableau de bord interactif : Visualisation des statistiques et des informations sur les véhicules sous forme de graphiques et de cartes. </br>
-🔐 Système d'authentification : Gestion des utilisateurs avec différents niveaux d'accès (administrateur, gestionnaire). </br>
-🛠️ Technologies utilisées : </br>
-Frontend : React ⚛️ pour une interface utilisateur réactive et moderne.</br>
-Backend : Laravel 🖥️ pour une gestion robuste des données et une architecture sécurisée.</br>
-Base de données : MySQL ou PostgreSQL 🗄️, selon la configuration du projet.
-Design : Bootstrap pour garantir une interface responsive et conviviale.
-🚀 Installation :
-1- Clonez le repository :
-git clone https://github.com/username/gestion-parc-automobile.git
+    <h1 align="center">🚗 Parc Automobile Management 🚀</h1>
+    
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" alt="Laravel Logo">
+    </p>
+    
+    <p align="center">
+        <strong>Une plateforme complète pour la gestion d’un parc automobile</strong>  
+        <br>📊 Gestion des véhicules, conducteurs et historiques  
+        <br>🔎 Suivi en temps réel des opérations  
+        <br>🛠️ Outils avancés pour optimiser la gestion  
+    </p>
 
-2- Installez les dépendances du frontend (React) :
-cd frontend
-npm install
+    <h2>📌 Description</h2>
+    <p>
+        <strong>Parc Automobile Management</strong> est une application web développée avec <strong>Laravel</strong> et <strong>React</strong> permettant aux entreprises et administrations de gérer efficacement leur flotte de véhicules.
+    </p>
 
-3- Installez les dépendances du backend (Laravel) :
-cd backend
-composer install
+    <h2>⚙️ Fonctionnalités</h2>
+    <ul>
+        <li>📑 <strong>Gestion des véhicules</strong> : Ajout, modification, suppression, et suivi des entretiens.</li>
+        <li>👨‍💼 <strong>Gestion des conducteurs</strong> : Attribution de véhicules et suivi des activités.</li>
+        <li>📝 <strong>Suivi des interventions</strong> : Réparations, entretiens et coûts associés.</li>
+        <li>📍 <strong>Localisation des véhicules</strong> : Intégration possible avec un système GPS.</li>
+        <li>📊 <strong>Tableau de bord</strong> : Statistiques détaillées pour une meilleure prise de décision.</li>
+    </ul>
 
-4- Configurez la base de données et les fichiers .env pour le backend.
+    <h2>🛠️ Technologies Utilisées</h2>
+    <ul>
+        <li>🔹 <strong>Back-end</strong> : Laravel</li>
+        <li>🔹 <strong>Front-end</strong> : React.js</li>
+        <li>🔹 <strong>Base de données</strong> : MySQL</li>
+        <li>🔹 <strong>Authentification</strong> : Laravel Breeze</li>
+    </ul>
 
-5- Lancez le serveur de développement :
+    <h2>🚀 Installation</h2>
+    <p>Clonez le projet :</p>
+    <pre><code>git clone https://github.com/MohammedDevX/parc-automobile-management.git</code></pre>
 
-    -Pour le frontend :
-        npm start
-    -Pour le backend :
-        php artisan serve
+    <p>Accédez au répertoire :</p>
+    <pre><code>cd parc-automobile-management</code></pre>
 
-🤝 Contribuer :
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, ouvrez une pull request et nous serons ravis de l'examiner.
+    <p>Installez les dépendances Laravel :</p>
+    <pre><code>composer install</code></pre>
 
-📄 Licence :
-Ce projet est open-source et licencié sous la licence MIT.
+    <p>Installez les dépendances React :</p>
+    <pre><code>npm install && npm run dev</code></pre>
+
+    <h2>📜 Licence</h2>
+    <p>Ce projet est sous licence <strong>MIT</strong>. Vous êtes libre de l'utiliser et de le modifier selon vos besoins.</p>
+
+    <h2>📩 Contact</h2>
+    <p>📧 Pour toute question ou suggestion, vous pouvez me contacter via GitHub : <a href="https://github.com/MohammedDevX">MohammedDevX</a></p>
+
+</body>
+</html>
