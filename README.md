@@ -1,18 +1,18 @@
 <<<<<<< HEAD
 <p align="center"><a href="https://github.com/username/gestion-parc-automobile" target="_blank"><img src="//front-end/src/assets/Icon.png" width="400" alt="Logo Gestion Parc Automobile"></a></p> <p align="center"> <a href="https://github.com/username/gestion-parc-automobile/actions"><img src="https://github.com/username/gestion-parc-automobile/workflows/tests/badge.svg" alt="Statut de la construction"></a> <a href="https://packagist.org/packages/username/gestion-parc-automobile"><img src="https://img.shields.io/packagist/dt/username/gestion-parc-automobile" alt="Téléchargements totaux"></a> <a href="https://packagist.org/packages/username/gestion-parc-automobile"><img src="https://img.shields.io/packagist/v/username/gestion-parc-automobile" alt="Dernière version stable"></a> <a href="https://packagist.org/packages/username/gestion-parc-automobile"><img src="https://img.shields.io/packagist/l/username/gestion-parc-automobile" alt="Licence"></a> </p>
-🚗 Gestion Parc Automobile - Municipalité de Taourirt
-Description :
+🚗 Gestion Parc Automobile </br>
+Description : </br>
 Ce projet est une application web de gestion du parc automobile pour la municipalité de Taourirt. Développée avec React pour le frontend et Laravel pour le backend, cette application permet aux utilisateurs de gérer et suivre les véhicules municipaux, leurs entretiens, et leurs opérations quotidiennes de manière efficace et fluide.
 
-⚙️ Fonctionnalités principales :
-🚙 Gestion des véhicules : Ajouter, modifier et supprimer des véhicules avec des informations détaillées (marque, modèle, immatriculation, etc.).
-🔧 Suivi des entretiens : Planification et gestion des entretiens périodiques, avec des notifications pour les réparations à venir.
-⛽ Suivi des opérations : Suivi du kilométrage, de la consommation de carburant et d'autres opérations liées aux véhicules.
-📊 Tableau de bord interactif : Visualisation des statistiques et des informations sur les véhicules sous forme de graphiques et de cartes.
-🔐 Système d'authentification : Gestion des utilisateurs avec différents niveaux d'accès (administrateur, gestionnaire).
-🛠️ Technologies utilisées :
-Frontend : React ⚛️ pour une interface utilisateur réactive et moderne.
-Backend : Laravel 🖥️ pour une gestion robuste des données et une architecture sécurisée.
+⚙️ Fonctionnalités principales : </br>
+🚙 Gestion des véhicules : Ajouter, modifier et supprimer des véhicules avec des informations détaillées (marque, modèle, immatriculation, etc.). </br>
+🔧 Suivi des entretiens : Planification et gestion des entretiens périodiques, avec des notifications pour les réparations à venir. </br> 
+⛽ Suivi des opérations : Suivi du kilométrage, de la consommation de carburant et d'autres opérations liées aux véhicules. </br>
+📊 Tableau de bord interactif : Visualisation des statistiques et des informations sur les véhicules sous forme de graphiques et de cartes. </br>
+🔐 Système d'authentification : Gestion des utilisateurs avec différents niveaux d'accès (administrateur, gestionnaire). </br>
+🛠️ Technologies utilisées : </br>
+Frontend : React ⚛️ pour une interface utilisateur réactive et moderne.</br>
+Backend : Laravel 🖥️ pour une gestion robuste des données et une architecture sécurisée.</br>
 Base de données : MySQL ou PostgreSQL 🗄️, selon la configuration du projet.
 Design : Bootstrap pour garantir une interface responsive et conviviale.
 🚀 Installation :
