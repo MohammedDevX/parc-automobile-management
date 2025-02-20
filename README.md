@@ -1,6 +1,5 @@
 <h1 align="center">🚗 Parc Automobile Management 🚀</h1>
 <p align="center">
-<img src="/front-end/src/assets/Icon.png" width="300" alt="Laravel Logo">
 </p>
 
 <p align="center">
