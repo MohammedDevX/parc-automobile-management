@@ -43,10 +43,6 @@ export default function AddReparation() {
             setLoading(false);
         });
     }, [id_reparation, alert]);
-<<<<<<< HEAD
-=======
-    
->>>>>>> ec062c17bc46cc4ff292b70d6873c423ce686592
 
     const onSubmit = (ev) => {
         ev.preventDefault();
