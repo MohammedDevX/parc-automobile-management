@@ -1,4 +1,4 @@
-<h1 align="center">🚗 Parc Automobile Management 🚀</h1>
+<!-- <h1 align="center">🚗 Parc Automobile Management 🚀</h1>
 <p align="center">
 </p>
 
@@ -48,4 +48,69 @@
     <p>Ce projet est sous licence <strong>MIT</strong>. Vous êtes libre de l'utiliser et de le modifier selon vos besoins.</p>
 
 <h2>📩 Contact</h2>
-    <p>📧 Pour toute question ou suggestion, vous pouvez me contacter via GitHub : <a href="https://github.com/MohammedDevX">MohammedDevX</a></p>
+    <p>📧 Pour toute question ou suggestion, vous pouvez me contacter via GitHub : <a href="https://github.com/MohammedDevX">MohammedDevX</a></p> -->
+
+
+
+
+
+<h1 align="center">🚗 Parc Automobile Management 🚀</h1>
+
+<p align="center">
+    <strong>Une plateforme complète pour la gestion d’un parc automobile</strong>
+    <br>📊 Gestion des véhicules, conducteurs et historiques
+    <br>🔎 Suivi en temps réel des opérations
+    <br>🛠️ Outils avancés pour optimiser la gestion
+</p>
+
+---
+
+## 📌 Description
+**Parc Automobile Management** est une application web développée avec **Laravel** et **React** permettant aux entreprises et administrations de gérer efficacement leur flotte de véhicules.
+
+## ⚙️ Fonctionnalités
+- 📑 **Gestion des véhicules** : Ajout, modification, suppression et suivi des entretiens.
+- 👨‍💼 **Gestion des conducteurs** : Attribution de véhicules et suivi des activités.
+- 📝 **Suivi des interventions** : Réparations, entretiens et coûts associés.
+- 📍 **Localisation des véhicules** : Intégration possible avec un système GPS.
+- 📊 **Tableau de bord** : Statistiques détaillées pour une meilleure prise de décision.
+
+## 🛠️ Technologies Utilisées
+- 🔹 **Back-end** : Laravel
+- 🔹 **Front-end** : React.js
+- 🔹 **Base de données** : MySQL
+- 🔹 **Authentification** : Laravel Breeze
+
+---
+
+## 🚀 Installation
+
+### 1️⃣ Cloner le projet
+```bash
+git clone https://github.com/MohammedDevX/parc-automobile-management.git
+cd parc-automobile-management
+
+2️⃣ Configurer le serveur Laravel
+composer install
+cp .env.example .env
+php artisan key:generate
+
+⚠️ Pensez à configurer la base de données dans le fichier .env.
+
+Puis, effectuez les migrations :
+php artisan migrate
+
+Lancez le serveur Laravel :
+php artisan serve
+
+3️⃣ Installer et lancer le front-end React
+cd front-end
+npm install
+npm run dev
+
+📜 Licence
+Ce projet est sous licence MIT. Vous êtes libre de l'utiliser et de le modifier selon vos besoins.
+
+📩 Contact
+📧 Pour toute question ou suggestion, vous pouvez me contacter via GitHub :
+🔗 MohammedDevX
