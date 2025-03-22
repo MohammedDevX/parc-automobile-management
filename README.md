@@ -54,65 +54,63 @@
 
 
 
-📌 Description
+<h1 align="center">🚗 Parc Automobile Management 🚀</h1>
 
-Parc Automobile Management est une application web développée avec Laravel et React permettant aux entreprises et administrations de gérer efficacement leur flotte de véhicules.
+<p align="center">
+    <strong>Une plateforme complète pour la gestion d’un parc automobile</strong>
+    <br>📊 Gestion des véhicules, conducteurs et historiques
+    <br>🔎 Suivi en temps réel des opérations
+    <br>🛠️ Outils avancés pour optimiser la gestion
+</p>
 
-⚙️ Fonctionnalités
+---
 
-💑 Gestion des véhicules : Ajout, modification, suppression et suivi des entretiens.
+## 📌 Description
+**Parc Automobile Management** est une application web développée avec **Laravel** et **React** permettant aux entreprises et administrations de gérer efficacement leur flotte de véhicules.
 
-👨‍💼 Gestion des conducteurs : Attribution de véhicules et suivi des activités.
+## ⚙️ Fonctionnalités
+- 📑 **Gestion des véhicules** : Ajout, modification, suppression et suivi des entretiens.
+- 👨‍💼 **Gestion des conducteurs** : Attribution de véhicules et suivi des activités.
+- 📝 **Suivi des interventions** : Réparations, entretiens et coûts associés.
+- 📍 **Localisation des véhicules** : Intégration possible avec un système GPS.
+- 📊 **Tableau de bord** : Statistiques détaillées pour une meilleure prise de décision.
 
-📝 Suivi des interventions : Réparations, entretiens et coûts associés.
+## 🛠️ Technologies Utilisées
+- 🔹 **Back-end** : Laravel
+- 🔹 **Front-end** : React.js
+- 🔹 **Base de données** : MySQL
+- 🔹 **Authentification** : Laravel Breeze
 
-📍 Localisation des véhicules : Intégration possible avec un système GPS.
+---
 
-📊 Tableau de bord : Statistiques détaillées pour une meilleure prise de décision.
+## 🚀 Installation
 
-🛠️ Technologies Utilisées
-
-🔹 Back-end : Laravel
-
-🔹 Front-end : React.js
-
-🔹 Base de données : MySQL
-
-🔹 Authentification : Laravel Breeze
-
-🚀 Installation
-
-1⃣ Cloner le projet
-
+### 1️⃣ Cloner le projet
+```bash
 git clone https://github.com/MohammedDevX/parc-automobile-management.git
 cd parc-automobile-management
 
-2⃣ Configurer le serveur Laravel
-
+    2️⃣ Configurer le serveur Laravel
 composer install
 cp .env.example .env
 php artisan key:generate
 
-⚠️ Pensez à configurer la base de données dans le fichier .env avant de lancer les migrations.
+    ⚠️ Pensez à configurer la base de données dans le fichier .env avant de lancer les migrations.
 
 Puis, effectuez les migrations :
-
 php artisan migrate
 
 Lancez le serveur Laravel :
-
 php artisan serve
 
-3⃣ Installer et lancer le front-end React
-
+    3️⃣ Installer et lancer le front-end React
 cd front-end
 npm install
 npm run dev
 
-📜 Licence
-
+    📜 Licence
 Ce projet est sous licence MIT. Vous êtes libre de l'utiliser et de le modifier selon vos besoins.
 
-📩 Contact
-
-📧 Pour toute question ou suggestion, vous pouvez me contacter via GitHub :🔗 MohammedDevX
+    📩 Contact
+📧 Pour toute question ou suggestion, vous pouvez me contacter via GitHub :
+🔗 MohammedDevX
