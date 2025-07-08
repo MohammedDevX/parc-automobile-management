@@ -20,7 +20,6 @@
     <li>📑 <strong>Gestion des véhicules</strong> : Ajout, modification, suppression et suivi des entretiens.</li>
     <li>👨‍💼 <strong>Gestion des conducteurs</strong> : Attribution de véhicules et suivi des activités.</li>
     <li>📝 <strong>Suivi des interventions</strong> : Réparations, entretiens et coûts associés.</li>
-    <li>📍 <strong>Localisation des véhicules</strong> : Intégration possible avec un système GPS.</li>
     <li>📊 <strong>Tableau de bord</strong> : Statistiques détaillées pour une meilleure prise de décision.</li>
 </ul>
 
@@ -61,9 +60,6 @@ npm run dev
 </code></pre>
 
 <hr>
-
-<h2>📜 Licence</h2>
-<p>Ce projet est sous licence <strong>MIT</strong>. Vous êtes libre de l'utiliser et de le modifier selon vos besoins.</p>
 
 <h2>📩 Contact</h2>
 <p>📧 Pour toute question ou suggestion, vous pouvez me contacter via GitHub :</p>
